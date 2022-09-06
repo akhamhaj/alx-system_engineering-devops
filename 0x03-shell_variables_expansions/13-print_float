@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%.2f" $NUM | sort
+printf "%s\n" {a..z}{a..z} | grep -v "oo"
